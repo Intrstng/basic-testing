@@ -6,7 +6,6 @@ let initialBalance: number;
 describe('BankAccount', () => {
   beforeEach(() => {
     initialBalance = 100;
-    jest.clearAllMocks();
   })
 
   test('should create account with initial balance', () => {
