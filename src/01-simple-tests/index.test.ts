@@ -1,12 +1,5 @@
-// Uncomment the code below and write your tests
 import {simpleCalculator, Action} from './index';
 
-// let dataAdd_1, dataAdd_2;
-//
-// beforeEach(() => {
-//   const dataAdd_1 = {a: 10, b: 20, action: Action.Add};
-//   const dataAdd_2 = {a: 0, b: -20, action: Action.Add};
-// })
 
 describe('simpleCalculator tests', () => {
   test('should add two numbers', () => {

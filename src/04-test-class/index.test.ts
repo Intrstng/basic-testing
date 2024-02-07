@@ -27,7 +27,7 @@ describe('BankAccount', () => {
   });
 
   test('should throw error when transferring to the same account', () => {
-    const transferAmount = 120000; // checking of accounts goes first in transfer method (amount doesn't matter here)
+    const transferAmount = 120000; // checking of accounts goes first in transfer method (invalid amount doesn't matter here)
     const account_1 = getBankAccount(initialBalance);
     expect(() => account_1.transfer(transferAmount, account_1)).toThrow(TransferFailedError);
   });
